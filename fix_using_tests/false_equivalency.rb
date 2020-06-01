@@ -12,9 +12,9 @@ def prompt_user
 end
 
 def selection(num)
-  if num = 1
+  if get_user_input = 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
+  elsif get_user_input = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
